@@ -1,0 +1,44 @@
+SDLC MODELS:
+
+    * WaterFall Models.
+    * Spiral Models.
+    * Agile Models.
+
+WaterFall Model:
+    * It is a classical model developing application.
+    * It is used for linear and sequential Model.
+    * Used when requirement are fixed.
+    * used for small project.
+    * High amount of risk and Uncertainty.
+    * In this phase we don't go the another phase 
+
+Spiral Models:(when client don't know the final outcome of the application so we use Spiral model)
+    * use when requirement are change.
+    * Incremental(adding new features in the existing module) and 
+        iterative(reparative model) for the application.
+    * prototype model also a sample application for client.
+    * Spiral Models used for ongoing Project.
+    * Spiral Models is costly and time consuming.
+
+Agile Models:
+    * Meaning of agile is move quickly or fast.
+    * Agile use when the requirement are changes.
+    * In agile entire project information will present in the requirement list.
+    * we will divide requirement list into Multiple parts.
+    * In agile short term planning are preferred.
+    * In agile better team work and better communication will have.
+    * In agile we can work on the client requirement at any point.
+
+Framework in agile:
+    => Agile is concept or theory we will use Framework or process that process is called scrum.
+    => Agile is also a Incremental and iterative model.
+
+    * Product Backlog or user story nothing but all the modules or feature available in the application.
+
+    * Release requirement contains those requirement in which developed application are Release to the client.
+
+
+Meeting in scrum or agile:
+    => Sprint (time duration do all the process and release the application to client side within the time duration)
+    => Planning 
+    => Meeting

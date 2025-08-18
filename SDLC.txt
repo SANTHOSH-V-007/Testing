@@ -1,0 +1,98 @@
+Software Development Life cycle:
+
+    SDLC is a combination of Steps for developing or creating a Application.
+
+    7 Steps of SDLC:
+
+        * Requirement gathering
+        * Analysis
+        * Design
+        * Development
+        * Testing
+        * Deployment
+        * Maintenance
+        
+
+1. Requirement gathering: 
+    What is the need of the customer is know to Requirement and collecting the data from the customer is 
+    know as gathering.
+
+    SRS -Software Requirement Specification
+    CRS- Customer Requirement Specification
+    URS- User Requirement Specification
+
+
+2. Analysis:
+
+In this phases a BA team will schedule a internal meeting to discuss of business requirement.
+        * MOM-Minutes of meeting
+        * Agenda
+    FS-Friability study meeting 
+
+    * Time
+    * Budget
+    * Environment
+    * Resource
+    * Tech
+    * Risk 
+
+3. Design:
+    In this phases the designer design the application based upton the requirements.
+
+    Designing Two Types:
+            * HLD - High level Design(Ex: Data flow diagram) - Overall Design of the application are created
+            * LLD - Low Level Design(Ex: Entity Relationship Diagram) - Detailed Design of the application
+
+
+4. Development:
+        In this phase the developer refer the Design Document and start creating coding based upto the 
+        requirement.
+
+
+5. Testing:
+    Testing is a process of finding defect.
+    Two Types:
+    * Expected result - user expect from the application.
+    * Actual Result - when we used that app or test the app the test given by the application is known as actual result.
+
+    * In this Phases we need to checking or observing the code.
+
+    * +ve testing means passing valid input and check input is accepted or not.
+    * -ve testing we will pass invalid input and check it will rejected or not.
+
+Testing Types:
+    * verification
+    * Validation
+
+Testing level:
+    * Unit Testing.
+    * Integration Testing.
+    * System Testing.
+    * User Acceptance Testing.
+
+Testing Method:
+    * Black-Box Testing.
+    * White-Box Testing.
+
+
+
+6. Deployment or implementation:
+
+Three Environment are:
+    * Dev - Developer Environment
+    * Test - Tester Environment
+    * Production - Client Environment
+
+In this phase Tested application will release to the Client Side.
+
+
+7.Maintenance
+
+    In this phase organization take feedback from the client.
+        This phase gives two parts:
+            * Corrective 
+            * Adaptive
+        
+        * In the corrective phase organization resolve the problem when the client report without taking extra money.
+        * In the adaptive phase if client want any modification or new features in existing features
+            to work on the new modification or feature organization required time and cost

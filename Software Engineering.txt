@@ -1,0 +1,47 @@
+                   *Software Engineering*
+Software:
+
+    *Collection of program (or) combination of program
+
+    *Used to do some performance we use software.
+
+    * In software we used to reduce Time,cost and Effort for optimize the process.
+
+    Types of software:
+
+    * Application Software
+    * System Software- Ex:OS is used to connect hardware and software
+
+    In system the inbuilt software are available in c drive in that windows,system32
+
+
+    *Window Application
+    *Web Application
+    *Mobile Application
+
+
+    * Software Engineering is a process of designing, Developing, Testing and Maintaining.
+
+    * Software Engineering has two terminologist that are process and Product.
+
+        * process is an step used to perform some process of the product.
+        * Product is an combination of Multiple process.
+
+        Product Characteristics:
+            * Usability.
+            * performance
+            * Security
+            * Time
+            * Budget.
+
+        product Principle:
+            * Abstraction.
+            * Modularity.
+            * Encapsulation.
+            * reusability.
+            * Inheritance.
+            * reliability.
+            * Efficiency.
+
+
+
