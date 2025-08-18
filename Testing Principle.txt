@@ -1,0 +1,28 @@
+Testing Principles:
+
+    *=> Testing is Context(domain) Dependent:
+          * we can apply testing for different project.
+
+    *=> Exhaustive testing is impossible
+        * We can not test filled with each and every input.
+
+    => Early Testing
+        * we should start testing from the first phase to reduce time, effort, cost.
+
+    *=>Pesticide paradox(change):
+        * use some technique or input to find some defect.
+        * In Pesticide paradox we always change or update our input to find out problems.
+
+    =>Testing show presence of defect:
+        * with the help of testing we can check the defect is available on application or not.
+
+    =>Defect Clustering:
+        * Defect means different between Expected or actual.
+        * Clustering means grouping
+        * In this Principle we need to focus on starting module of application and critical module of application.
+
+    *=> Absence of error:
+        
+
+
+

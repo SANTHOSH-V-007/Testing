@@ -40,5 +40,30 @@ Framework in agile:
 
 Meeting in scrum or agile:
     => Sprint (time duration do all the process and release the application to client side within the time duration)
+        * In Sprint meeting  point manager decide with client which features we need to release to the client.
+        * For releasing that features has much time and effort are required comes under Sprint.
     => Planning 
     => Meeting
+
+
+* Story is a module name or feature name which we release to the client side.
+* Task is a individual work item.
+* Epic is a combination of multiple task.
+
+Types of Meeting:
+
+    1. Daily meeting or standup meeting or scrum meeting:
+        * Main goal is to check the progress of the task daily.
+
+    2.Sprint retro/petro meeting:
+        * In this meeting we need to give demo to the client.And also client gives some feedback.
+         And also client provided modification if required.
+
+    3. Sprint grooming meeting:
+        * In Sprint grooming meeting scrum master taking feedback each and every team member.
+            It will contacted only after two spring.
+
+    4. Sprint closure meeting:
+        * In this meeting a scrum master check all the assign atom should mark as close.After that only 
+            they start another spring. 
+
