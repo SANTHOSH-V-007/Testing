@@ -1,0 +1,44 @@
+                        Automation Testing
+
+    => Automation is nothing but performing the same manual testing task with the help some software or 
+        tool to reduce time,effort and cost.
+    
+    => To improve the quality and reliability we use Automation.
+
+when the automation is done?
+    when the manual testing is completed or the application is in stable condition in this situation
+        we use automation testing.
+    
+   => when any field or page executed with different set of input is called as parameterization.
+
+when not to preform automation:
+    * when requirement are change of continuous basis the company don't preferred automation.
+
+    user acceptance Testing(UAT):
+        * always preform to manually by client side.
+
+Types of Automation Tools:
+
+    => Functionality Testing Tools:
+        * selenium - open source
+        * Unified Functionality Testing (or) QuickTest Professional - paid tool
+        * cypress
+
+    => Non-Functionality Testing:
+        * Load Runner - HP License Tool
+        * JMeter - open source
+
+    => Defect Tracking Tool:
+        * JIRA
+        * BugZilla       
+        * Mentis
+
+    => Test Management Tool:
+        * QTest/Test Link
+
+
+Scroll bar Handling
+Alert Handling
+Action class
+Tab Handling
+wait in selenium

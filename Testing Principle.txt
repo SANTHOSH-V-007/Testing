@@ -21,8 +21,10 @@ Testing Principles:
         * Clustering means grouping
         * In this Principle we need to focus on starting module of application and critical module of application.
 
-    *=> Absence of error:
-        
+    *=> Absence of error for missing requirement:
+        *In this principle any module is miss then the application rejected by the client.
+        *To avoid this problem maintain a good Relationship and proper communication with entire team.
+
 
 
 

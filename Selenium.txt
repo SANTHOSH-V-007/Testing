@@ -1,0 +1,115 @@
+            selenium
+
+    => selenium is a test suit or a Jar File.
+
+        * Test suit - combination of multiple activities.
+
+    => selenium is open source.
+    => selenium support all browser.
+    => selenium support all OS.
+    => selenium support different programming language.
+    => selenium support only website or only web application.
+    => selenium developed by thoughtwork company.
+    => selenium has filled or page are called element in selenium.
+
+
+    selenium has three component:
+
+        * IDE(Integrated Development )
+        * RC (Remote Control)
+        * Web-Driver
+
+How to open browser:
+    * WebDriver wd= new ChromeDriver();
+
+How to open any websites:
+    *wd.get("https://www.google.com");
+
+How to maximize and minimize web page:
+    * wd.manage().window().minimize();
+	* wd.manage().window().maximize();
+
+To close the webpage:
+	* wd.close();
+
+To sleep the website for second
+	* Thread.sleep(10000);
+
+To get a title of the webpage: 
+    * System.out.println(wd.getTitle());
+
+To get webpage url:
+    * System.out.println(wd.getCurrentUrl());
+
+To get a webpage source code:
+    * System.out.println(wd.getPageSource());
+
+How to Navigate different browser:
+
+    *  WebDriver wd= new ChromeDriver();
+		WebDriver wd1= new ChromeDriver();
+		Thread.sleep(20000);
+		wd.get("https://www.google.com");
+		wd1.get("https://www.changepond.com/");
+
+   => Navigate: Is used for switch between webpage.
+
+   WebDriver wd= new ChromeDriver();
+		Thread.sleep(10000);
+		wd.get("https://www.google.com");
+		wd.navigate().to("https://www.changepond.com/");
+		Thread.sleep(10000);
+		wd.navigate().back();
+		Thread.sleep(10000);
+		wd.navigate().forward();
+		Thread.sleep(10000);
+		wd.navigate().refresh();
+
+
+How to capture current window size:
+
+        System.out.println(wd.manage().window().getSize());
+		Thread.sleep(10000);
+		wd.manage().window().maximize();
+		System.out.println(wd.manage().window().getSize());
+
+    
+How to open website by custom design size:
+
+        WebDriver Dim= new ChromeDriver();
+		Dimension Dim1 = new Dimension(500, 600);
+		Dim.manage().window().setSize(Dim1);
+
+
+How to handle elements in selenium:
+
+    Locating strategy in selenium:
+        => By.xpath
+        Xpath is combination of id and name.With the help of xpath we will get detailed information of
+        web element.
+        Two Types xpath:
+            * absolute
+            * relative
+        Absolute start with /.will take a element from root node.
+        Relative start with //.will take a element from current node.It is faster to locate element.
+
+
+        => By.id 
+        => By.name
+        => By.LinkTest 
+        => By.Partial LinkTest
+        => By.classname
+        => By.cssselector
+
+How to handle Drop Down List:
+
+ you need to see that in the code that (select) tag is used
+
+Drop Down has three method:
+ Index - 
+ Visible - Char
+        Select s = new Select(Demo.findElement(By.id("Skills")));
+			s.selectByVisibleText("Certifications");
+ Value - number
+        Select s2 = new Select(Demo.findElement(By.id("yearbox")));
+			s2.selectByValue("1927");
