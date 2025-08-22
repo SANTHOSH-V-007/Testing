@@ -1,0 +1,170 @@
+
+Testing Method:
+    Two types:
+        * Black Box Testing
+        * White Box Testing.
+
+
+Black Box Testing:
+
+    => Box is software.
+    => In Black box testing we will pass input and check output.
+    => In Black box testing we will no check coding or internal mechanism.
+    => Black box testing also called input output testing.
+    => Black box testing comes under system testing.
+    => Also called as close box testing.
+
+Black box test design techniques:
+    * ECP(Equivalence class partitioning)
+    * BVA(Boundary value analysis)
+    * DT(Decision Table)
+    * STT(State Transition Testing)
+    * Use case based testing
+
+
+ECP(Equivalence class partitioning):means combination of valid and invalid
+
+    Step 1: Identity class
+    Step 2: Divide the class into partition
+    Step 3: Take any one value from each class
+    Step 4: Test or implement the selected.
+
+1. what is valid esp value? any value between given range
+    => Valid ecp Value that comes in same Equivalence class or in range
+    eg: Range(5-17) ans: 11 
+
+2. Invalid ecp value: is not the range,select the value that not in the given range.
+    => Invalid ecp value that comes in less that given limit and greater than given limit.
+    eg: Range(5-17) ans: 4,18
+
+3. same Equivalence class 
+    => It contain only before range and after range and inside range 
+        eg: 5-12 ans:(1,2,3),(6,7,8),(13,14,15)
+
+4. ECP(Equivalence class partitioning):means combination of valid and invalid 
+    eg. Range(5-17) ans: 3, 11, 20
+
+
+page contain text box which accept alpha numeric value Identity valid Equivalence value
+    1. BOOK
+    2. book
+    3. Boo01k(correct answer)
+    4. BooK
+
+In a examination students want to get 25 marks or max 40 marks identity valid Equivalence value if clear exam
+    1.22 23 26
+    2.29 30 38(correct answer)
+    3.21 29 40
+    4. 0 15 22
+
+One of the field of the farm contain text box which accept range between 18 to 25 identity invalid Equivalence value.
+
+    1. 19 
+    2. 21 
+    3. 24 
+    4. 17(correct answer)
+
+Switch is switch off once temperature is off when 18 below and turn on when temperature is 21 .
+identity Equivalence value which belong to the same class
+
+    1. 12 16 22
+    2. 24 27 17
+    3. 23 25 25( correct answer)
+    4. 14 15 19
+
+Program contain numeric field as follow value less than 10 are rejected value between 10 and 21 accept and value greater than or equal to 22 is reject
+which is follow all Equivalence partition.
+
+ 1. 10 11 21
+ 2. 3 10 22(correct answer)
+ 3. 10 21 22
+ 4. 3 20 21
+
+
+ BVA(Boundary value analysis):
+
+    => Boundary value analysis used to test lower Boundary and upper Boundary
+
+* Valid Boundary: 4-8 range  ans is 4 and 8 is valid Boundary
+
+* Invalid Boundary: 4-8 range ans: 4-1=3 and 8+1=9 so 3,9 is answer
+
+* MostBoundary Value: combination of valid and invalid 
+    ex: 4-8 range ans is 3,4,8,9 
+
+
+Find out valid ecp value and valid Boundary
+a).4,8
+b). 4,7,10
+c). 5,7,8
+d). 4,6,8 (correct answer)
+
+Range(5-17)
+
+ecp - 3, 11, 20
+MostBoundary value - 5,4,17,18
+invalid ecp value - 4, 19
+valid Boundary - 5, 17
+same Equivalence class - (1,2,3)(6,7,8),(18,19,20)
+valid ecp value - 11
+invalid Boundary - 4, 18
+valid ecp and valid Boundary - 5, 10, 17
+
+
+    DT(Decision Table):
+
+    Decision Table means taking the Decision for writing input.
+
+
+    STT(State Transition Testing):
+
+    => In state Transition testing we will check the application flow from one step to another.
+
+given the state diagram which path will take a minimum series of valid transaction to cover every state.
+
+s5 s1 s2 s4 s1 s3 es (correct path or shortest path)
+s5 s1 s2 s4 s1 s3 s4 s1 s3 es
+s5 s1 s2 s3 s4 s3 s4 es
+s5 s1 s4 s2 s1 s3 es
+
+    Use case based testing:
+
+    => Use case diagram created by higher authority which decide which feature available for which user.
+    
+
+
+
+White Box Testing.
+
+    => White Box Testing is opposite to black box testing
+    => white Box is also called ad glass box testing
+    => open box is called as white box Testing
+    => In white box testing we will pass input and check how input are process and output are generated.
+    => It will deals with internal mechanism.
+    => white box testing comes in unit level.
+
+White Box techniques:
+
+    => Statement Coverage
+    => Decision Coverage
+    => conditional Coverage
+
+Statement Coverage:
+
+    Step 1:  understand logic of the code 
+    Step 2:  Draw flow based upon program flow
+    Step 3:  compare flow chart with code
+
+    Statement Coverage increase when else path is there.
+
+In Statement Coverage we will execute all the Statement but in minimum attempt
+
+    Read a, read b, c = a-2*b , if c<0 print c Negative
+
+
+Decision Coverage:
+
+    => Decision Coverage focus on diamond
+    => minimum Decision condition is true.
+
+Eg: read newspaper switch on tv if interested program watch that program else continue reading if we have buzzle we will doing the buzzle

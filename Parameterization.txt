@@ -1,0 +1,30 @@
+parameterization:
+
+    => All values are stored in single file.
+    => In parameterization we will parameterize the those input 
+    => Passing multiple value or set of field or data to fill.
+
+Two ways to perform:
+    =>xml
+    =>Data Provider 
+        * providing a data for testing.
+        * with help of data provider we will pass multiple input to test method.
+        * Data provider is the annotation in test engine
+
+
+Cross Browser Testing:
+    => opening a application on different browser at the same time.
+
+parallel Testing:
+    =>parallel testing means opening/running the application in multiple browsers at one time 
+    => Drawback is take more time
+
+
+How to find the failed test cases in TestNG:
+    =>testng-failed.xml
+
+TestNG group:
+    we will use testNG group when we want to separate the test cases as per the 
+
+
+

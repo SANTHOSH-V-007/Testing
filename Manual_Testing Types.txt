@@ -1,0 +1,289 @@
+
+Testing Types:
+    * verification
+    * Validation
+
+verification:
+
+    * verification is an observation /checking or cross checking is also called as quality assurance/static testing.
+
+    * Static Testing is done the testing the application without execution.
+
+    * Process as well as product oriented.
+
+    * Each phases of SDLC 
+
+    *Working progress activity.
+
+    * Slogan of verification
+        are we building the right product.
+
+Types of verification:
+    * Informal(walkthrough)
+    * Formal(Inspection)
+
+Informal:
+    => No rules No regulation.
+    => open ended session.
+    => It is contacted by author
+    => All the members that are available in walkthrough provided some suggestion and feedback.
+
+Inspection:
+    => Follow some rules and regulation.
+    => Closed ended session.
+    => ISTQB : International Software Testing Qualification Board.
+    => Train modulator
+    => Agenda and MOM
+
+Validation:
+
+    => quality control/quality centre
+    => Dynamic Testing during testing we can change the input.
+    => Testing the application with execution.
+    => Product oriented.
+    => Slogan of Validation
+        are you building the right product.
+    =>Consistency,correctly,completeness
+
+Types of Validation:
+ 
+Unit Testing:
+
+    * Unit Testing is a smallest part of the large application
+    * Unit Testing focus area on code
+    * unit testing done by dev team as per the company guideline.
+    * control flow,Data Flow, memory leak problem
+    * Main aim is to optimize the code.
+    * pod testing and component testing is also known as unit testing.
+    * software used for unit testing is JUnit(Java Unit).
+
+Integration Testing:
+
+    * Clubbing or merging the multiple module together.
+    * A main aim of Integrated Testing after Clubbing or merging that application should be work as client expectation.
+    * Incremental Approach:
+        => In Incremental Approach if two module are ready we will start the testing the communication between them.
+    * Non-Incremental Approach:
+        => In Non-Incremental we will wait for all module are ready after that only we will Approach to test the application.
+
+
+System Testing:
+
+    Has Three types:
+        * usability Testing
+        * Functional Testing.
+        * Non-Functional Testing
+
+usability Testing: 
+    => Easy to use
+    => usability testing also know as accessability testing.
+    => In this testing we will check the look and feel color combination and also shape size and hight and width.
+        And also font size and font style.
+
+usability testing Types:
+    * User Interface
+    * Manual support Testing / Help Document Testing.
+
+In Manual support Testing origination or company created one Document that Document provide the detailed
+information regrading the product.
+
+
+Functional Testing:
+    => Requirement Testing
+
+Types of Functionality Testing:
+    * Smoke Testing
+    * sanitary Testing
+
+
+Smoke Testing:
+    => Smoke Testing is basic Functional testing.
+    => Smoke Testing also called as build verification Testing.
+    => This testing called as sallow and wide Approach.
+    => In smoke Testing we will check two function:
+            * Main Functionality
+            * Testability
+    => If smoke Testing pass only then origination preform further testing.
+
+sanitary Testing:
+
+    => Negative Testing.
+    => Built acceptance Testing
+    => Narrow and depth.
+    => In sanitary testing we will test one or few model in detail.
+    => we will preform sanity when there is a new model or modification preform by Dev Team.
+
+
+
+Non-Functionality Testing:
+    => In Non-Functionality we will check how applicable behave in real world environment.
+    =>In Non-Functionality we will check characteristics of application that check support different browsers,languages,os,devices
+        Security.
+    => Response time application 
+
+Types of Non-Functionality Testing:
+
+1. Recovery Testing/reliability testing
+    => In this testing we face sudden failure or sudden crash.
+    => Recova testing software used for Recovery testing.
+
+2. compatibility Testing / portability testing:    
+    => In this testing we will website or applicable should support different browser and different
+        operating System.
+                                                       
+3. configuration Testing:                  
+    => in this testing we will check applicable will support different devices.
+
+4. End-to-End Testing:
+    => In end-to-end Testing we will execute complete testing from starting module to ending module
+
+5. performance Testing.
+    => performance means checking the Response time of the application
+    =>In this testing we will check the application must give proper output in less time.
+
+In performance testing has two testing:
+    * Load
+    * Stress
+
+Load Testing:
+    => Costumer Expected amount or Costumer Expected load.
+    => A main aim of load Testing is to check stability of the application.
+
+Stress Testing:
+    =>Stress testing is to check maximum limit of the application.
+
+parallel Testing:
+    => performing product base company.
+    => Compare two product or two version of same product.
+
+Security Testing:
+    => Security testing also called as penetration testing
+
+Authorization:
+    => user who used my application is valid user or not.
+
+Access  control:
+    => In this phase we will check provide permission and privileges to the valid user and denied invalid users.
+
+Encryption & decryption / encoding and decoding:    
+
+    => Encryption Means normal data into the coded format
+    => By key and algorithm we will Encrypted the data.
+
+    => decryption Means reconvert coded data into the normal format.
+
+
+
+User Acceptance Testing:
+    => In this testing a user want meets their needs and business requirements 
+        before its official release
+
+Two types:
+    * ALpha Testing
+        => It is performed in company side or company environment.
+        => Tester and Developer are available.
+        => Testing perform by the user
+        => If problem found in alpha testing fix the problem immediately.
+
+    * Beta Testing
+        => It is performed in clint side.
+        => It is not managed of maintain in Beta Testing.
+        => Tester and Developer are not available in Beta Testing.
+        => Testing perform by client
+        => In Beta testing depends on the Priority we will fix the issue.
+
+
+ReTesting :
+
+    => ReTesting also called as Rechecking/conformation Testing.
+    => when testing team found any issues they will inform to the dev team after dev team modify them
+        and dev team create one build and send it to the tester.
+    => Now on the modify build the tester check reported issue is fix or not.
+    => In ReTesting we will only test the test cases
+    => scope of ReTesting is narrow.
+    => ReTesting nothing but fail to pass conversion.
+
+Regression Testing:
+    => Regression is a re-executing 
+    => Regression also called as side-effect testing.
+    => In Regression Testing we will check past technology.
+    => It is done depend path testing.
+
+Types of Regression Testing:
+    * Partial Regression.
+        => we will execute dependant module.
+    * Full Regression
+        => It only perform when environment is change.
+
+when to perform Regression Testing:
+    => After ReTesting we will perform perform Regression Testing.
+    => when one new feature added in existing application.
+    => when platform are change.
+    => when any existing module is deleted from application.
+
+
+Software Testing Life Cycle:
+    => STLC is a series of test to testing the application.
+    => process life Cycle
+    => STLC is a internal part of SDLC.
+    => STLC is involve tester 
+
+STLC Phases:
+    => Requirement Analysis.- In this phase Tester Analysis gather requirement
+    => Test planning phases - planning for conducting Testing.
+    => Test Analysis - In this phase test plan is review by higher authority.
+    => Test Design - In this phase we will construct a test cases based upon requirement.For 
+        design a test we will a rule of techniques is called blackbox testing.
+    => Test environment - In this phase we will setup a environment for executing testcases.
+    => Test Execution- running a verified testing. During execution if any test case failed we will
+        report that fail test cases to the Developer
+    => Final Testing/implementation:
+        * In final testing we will perform ReTesting and Regression testing.
+        * In the implementation phase once all the testcases completed we will implement future to the client side.
+    => Post implementation - In post implementation we will take a suggestion from the client 
+
+
+Test Planning:
+
+    => It is nothing but planning and contacting testing.
+    => It is also called as Test strategy.
+    => Test Plan introduction contain name of the project,scope of the project and name of the test plan.
+    => Test Atom - In this phase we will list down all the future that are available in the project.
+
+    * future to be tested
+        => future to be tested contain those future which on which perform testing.
+
+    * future not be tested
+        => It contain those future which is not required or not tested.
+    
+    * Atom pass and failed criteria
+        => In this phase we will test testing should be done customer specification.
+
+    * Suspicion and resumption criteria
+        => Suspicion is nothing but pause. resumption is nothing but resume.
+        => Testing activity is suspended when any issues is found.we will resume our testing activity 
+            once the resume is resolve.
+
+Test Plan roles and responsibility:
+    => In this point we will mention roles and responsibility of each and every team member.
+
+Ricks Factor:
+    => Risk is also a future problem which we cannot avoid.
+
+Approval:
+    => In this higher authority approve the document
+
+Ad-Hoc Testing:
+    => Less Time,Lack of document,lack of project domain,less Knowledge
+Types of Ad-Hoc Testing:
+    * Monkey Testing / Random Testing 
+        => Follow when lack of time are there
+        => In Monkey Testing we will test the important module or critical module first.
+    * Buddy Testing
+        => Follow when lack of time are there
+        => In Buddy Testing Management team create a group of Developer and tester.(5:1 ratio 5 dev, 2 tester).
+    * Pair Testing
+        => Follow when lack of Knowledge on the project domain.
+    * Exploratory Testing
+        => Follow when Lack of Documentation are there.
+        

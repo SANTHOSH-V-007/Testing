@@ -1,0 +1,12 @@
+
+Assertion:
+    => Assertion is used for verification or testing purpose
+    => with the help of Assertion we wil cross check the two result.
+
+There are two types of assertion:
+    => hard assert
+    => soft assert
+
+    How to read data from property files:
+        => It is normal text file with extension .property.
+        => In this property file all the configuration details all available

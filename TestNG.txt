@@ -1,0 +1,53 @@
+TestNG: Test Next Generation
+
+    * It is a open source testing framework used for java language.
+
+TestNG support different testing like Functionality Testing, End To End Testing, Unit Testing, Smoke Testing, Regression Testing.
+
+    *  TestNG is a update version JUnit & NUnit.
+    * TestNG support parallel testing.
+    * TestNG support to use for generating report.
+    * It is used of parameterization.(executing a application with different input)
+    * TestNG used for executing multiple test cases by using single click.
+    * we will not run a single class we use a multiple class in TestSuit.
+
+
+create a first test script in TestNG.
+    Step by step process of creating TestNG:
+    *   Create project
+    *   Create Package
+    *   Add selenium Jar
+    *   Add TestNG Library.
+    *   Create TestNG class
+
+
+    => Default name of TestNG class is NewTest.
+
+    => TestNG doesn't contain main method but it contain only annotation.
+    => Annotation is a function or method which decide to execution.
+    =>  @Test is a default annotation in TestNG
+    => Default test case name is test.
+
+Annotation Sequence:
+
+    => Combination of multiple suit became class.
+    => combination of multiple test case became method.
+    => beforeSuite
+    => beforeTest
+    => beforeClass
+    => beforeMethod
+    => TestCase
+    => afterMethod
+    => afterClass
+    => afterTest
+    => afterSuite
+    => No annotation is compulsory.
+    => Before method and after method annotation we depends on the test case.it will run two times.
+
+Types of TestCases:
+    => Priority Testing.
+    => Skip the test case. 
+        * [@Test(enabled = false)] is not consider execution
+        * [@Test(enabled = pass)] is  consider execution
+    => Run a multiple class in TestNG
+        * To run multiple class you need to create xml File.

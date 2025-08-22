@@ -1,0 +1,26 @@
+Interaction Capabilities:
+
+The WebElement interface provides a set of methods that allow you to interact with these elements.
+Common interactions include:
+    * click(): To simulate a mouse click on the element.
+    * sendKeys(): To type text into input fields or send keyboard actions.
+    * clear(): To clear the content of a text field.
+    * submit(): To submit a form.
+
+Information Retrieval:
+You can also retrieve information about a WebElement, such as its:
+getText(): To get the visible text content of the element.
+getAttribute(String name): To retrieve the value of a specific HTML attribute.
+isDisplayed(), isEnabled(), isSelected(): To check the state of the element.
+
+
+Wait command:
+    * Thread.sleep
+
+    * Implicit Wait - use when the element is executed in less time.Is a global wait.it is applicable for all
+        the script.(Demo.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));)
+
+    * Explicit wait - Is used for specific condition.Explicit wait is the local wait.In this command
+            we will wait only specific condition only.
+            => WebDriverWait w = new WebDriverWait(Demo, Duration.ofSeconds(5));
+		       w.until(ExpectedConditions.visibilityOf(user));
