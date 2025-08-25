@@ -51,3 +51,11 @@ Types of TestCases:
         * [@Test(enabled = pass)] is  consider execution
     => Run a multiple class in TestNG
         * To run multiple class you need to create xml File.
+
+
+How to take a screenshort in selenium:
+
+    	File fr = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+		Files.copy(fr, new File("C:\\Users\\santhosh.v\\Pictures\\p.jpeg"));
+
+
