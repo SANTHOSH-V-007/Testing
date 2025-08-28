@@ -7,3 +7,20 @@
   *Api Testing-Postman Api
 
   *SQL Testing
+
+
+  Manual Testing Important topics:
+    * SDLC
+    * AGILE 
+    * Smoke,Sanity Testing
+    * ReTesting and regression Testing
+    * STLC
+    * DLC-Defect life cycle
+    * Severity and priority
+
+  Automation Important topics:
+    * Web-page handling
+    * Alert handling
+    * Drop-Down handling
+    * Action class
+    * How to fetch the data

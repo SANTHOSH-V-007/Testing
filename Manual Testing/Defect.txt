@@ -1,0 +1,40 @@
+
+
+Defects: Bug/Problem/error
+
+    => Defects is different between Expected result and  Actual result.
+    => Anything which is missing,wrong,extra or not specified by required document.
+
+Error: 
+    => Human Mistake.
+
+Fault:
+    => Fault is occur due to error.
+
+Failure:
+    => When problem seem by end user is called as Failure.
+
+Three types while reporting defects:
+    => UI/ Cosmetic issues 
+    => Functional 
+    => Non-Functional issues
+
+severity or priority:
+
+    => Severity is nothing but seriousness of the problem on the application.
+    => Severity consider as per the Functionality point of view
+
+Three types of severity: High,Medium,Low.
+
+
+priority:
+    => priority means persistence given to the bug for fixing bug
+    => priority consider as per the user point of view.
+
+Three types of priority: High clear as soon as possible,Medium,Low.
+
+Defects age:
+    Time gap between defect reporting and defect closing.
+
+Defect Density:
+    => Average number of defect found in module.

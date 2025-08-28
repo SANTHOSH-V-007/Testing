@@ -1,0 +1,42 @@
+Behavior Driven Development:
+
+    => Is the collaboration between team and client.
+    => In BDD we will create a documentation that can be understand by stack holder and all the team member.
+
+Cucumber:
+
+    => cucumber is based on the BDD framework.
+    => with the cucumber we will understand the client requirement or user story and turn your user story
+        into the test script
+
+    => in the cucumber we will use gherkin language
+    => In cucumber feature file contain all the information
+    => given ,when , and ,then 
+
+Feature File: 
+    * Feature file is a normal text file with extension .feature 
+    * In this feature file we will mention or describe the Behavior of the application
+    * To describe Behavior we will use gherkin language.
+    * Feature is nothing but high level description.
+
+
+Scenario: 
+    => Describe Behavior of the application.
+    
+Given:
+    => pre condition or initial condition required to execute Scenario
+    => user is an login page
+
+When:  
+    => is nothing but steps that we perform to satisfy the scenario
+    => Enter valid username and valid password.
+
+And:
+    => click on login button
+
+Then:
+    => is nothing but post condition or expected output
+    => user should navigate on next page
+
+Step definition :
+    => Step definition file is used for converting feature or gherkin code into actual code

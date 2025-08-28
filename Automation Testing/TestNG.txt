@@ -28,7 +28,7 @@ create a first test script in TestNG.
     =>  @Test is a default annotation in TestNG
     => Default test case name is test.
 
-Annotation Sequence:
+Annotation Sequence: is used to flow of execution
 
     => Combination of multiple suit became class.
     => combination of multiple test case became method.

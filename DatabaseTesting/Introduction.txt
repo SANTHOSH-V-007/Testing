@@ -1,0 +1,34 @@
+
+DDL:Data Definition language        
+
+    =>Create 
+    => Alter
+    => Drop
+    => Truncate
+    => Rename
+
+DML: Data Manipulation Language
+
+    => Insert
+    => update
+    => Delete
+    => select
+
+
+SET Operator:
+    => union -> SELECT * FROM SUB UNION SELECT * FROM SUB1;
+    => intersect -> SELECT NAME FROM SUB INTERSECT SELECT NAME FROM SUB1;
+    => except -> SELECT NAME FROM SUB EXCEPT SELECT NAME FROM SUB1;
+
+
+Aggregate Function:
+
+    => COUNT()
+    => SUM ()
+    => AVG()
+    => MIN() AND MAX()
+
+    
+
+
+

@@ -1,0 +1,24 @@
+
+
+Reject is occur due to hardware or other things u are facing the issue.
+
+Defect depending upon the severity of the issue that defect
+
+Duplicate  two issue
+
+New -> Open -> New Project -> Fix -> ReTesting
+
+
+Requirement risibility matrix:
+
+Requirement risibility matrix is a document that are create in organization that maintain each and every Requirement
+
+Two types of risibility matrix:
+    => forward risibility matrix
+    => backward risibility matrix
+
+forward risibility matrix 
+    => means we will match with the next part.
+
+backward risibility matrix:
+    => When any Requirement or change we will use backward risibility matrix.

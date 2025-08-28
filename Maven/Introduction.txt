@@ -1,0 +1,10 @@
+Maven:
+    * It is a build Automation Tool
+    * Project Management tool
+    * Dependency Management
+
+POM:(Page object Module)
+
+    * Page object modules sre design pattern in which we will create page class for every pages available
+    in the application.
+

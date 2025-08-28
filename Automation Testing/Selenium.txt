@@ -96,7 +96,7 @@ How to handle elements in selenium:
 
         => By.id 
         => By.name
-        => By.LinkTest 
+        => By.LinkTest - pass the exact link 
         => By.Partial LinkTest
         => By.classname
         => By.cssselector

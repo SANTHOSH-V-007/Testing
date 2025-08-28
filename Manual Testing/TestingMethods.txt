@@ -114,7 +114,7 @@ valid ecp and valid Boundary - 5, 10, 17
     DT(Decision Table):
 
     Decision Table means taking the Decision for writing input.
-
+    
 
     STT(State Transition Testing):
 
@@ -145,8 +145,9 @@ White Box Testing.
 
 White Box techniques:
 
-    => Statement Coverage
-    => Decision Coverage
+    => Statement Coverage 
+    => Decision Coverage -It will check the true and false side
+                        Decision is higher than the Statement coverage
     => conditional Coverage
 
 Statement Coverage:

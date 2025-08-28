@@ -1,0 +1,25 @@
+
+Api:application Programming Interface
+    It is a set of protocols or use that enable or maintain communication between two or more system.
+
+1.Request
+2. processing
+3. Response
+4. Delivery
+
+Layers in API:
+1. UI
+2. Business
+3. Database
+
+Two Types of API Architecture:
+    1. REST 
+    2. SOAP 
+
+
+HTTP METHOD:
+    => GET - retrieve 
+    => POST  - create or sending request
+    => PUT - update purpose
+    => PATCH 
+    => DELETE

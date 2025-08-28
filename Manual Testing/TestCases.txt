@@ -1,0 +1,70 @@
+
+Test Cases:
+
+    => Cases is nothing but condition
+    => We will always write testcases based on requirement
+    => Test cases can be positive as well as Negative
+    => In ISTQB terminology how is to be tested is called as Test Cases
+
+
+Test scenario:
+    => scenario is nothing but high level description
+    => In ISTQB terminology what is to be tested
+
+Steps for Test Case scenario:
+
+Test case    Test case     Tester         Objective          Pre-conditions                                 Steps to                 Test Date             Expected               Actual              Status
+    id          Name        Name                                                                            follow                                         Result                 Result 
+ 
+ TC_001        Login       santhosh     To verify login       Login page should be available                 Enter valid username    username="Admin"      user should be         same as Expected   Pass
+                                        Functionality with    user name and password should be editable      Enter valid password    password="admin123"   login successfully     Result
+                                        valid credential      user should have valid credential              click ok button                               to the application
+
+
+TC_002         Login        santhosh    To verify login       login page should be available                  Enter InValid username  username="Admin1"     user should have a     same as Expected   pass
+               Unsuccessful             Unsuccessful with     user name and password should be editable       Enter InValid Password  password="admin1234"  issue that unable to   Result
+                                        invalid credential    user should have invalid credential             Click ok button                               login
+
+
+PC_1            Password    santhosh    To verify the         Password should editable                       Enter valid password     password="Abc123"     user should be entered  same as Expected   pass
+                success                 password with valid                                                                                                 valid credential in      Result
+                                        credential                                                                                                          password
+
+
+PC_2            Password     santhosh   To verify the password   password should not be editable              Enter invalid password  password="aBC1c"      user should be entered   same as Expected   pass
+                Unsuccessful            with invalid credential                                                                                             Invalid credential in    Result
+                                                                                                                                                            password 
+
+
+
+Test Case id:
+    => Test Case id is unique number it will assign to the each and every test cases
+
+Test Case Name:
+    => Test Case Name nothing but a module name
+
+Tester Name:
+    => It is a name of the tester
+
+Objective:
+    => Purpose for write test cases or goal behind the test cases.
+
+Pre-Condition:
+    => It is a initial condition that is required.
+
+Steps to follow:
+    =>  Steps that required for testing.
+
+Test Data:
+    => Test Data is nothing but input to test the application.
+
+Expected Result:
+    => User expectation from the application is nothing but the Expected Result. We will always use 
+        Requirement document to understand the Expected Result.
+
+Actual Result:
+    => Actual Result is result given by the application
+
+Status:
+    => Expected is match with actual result it will give complete status or else give not completed.
+     => Pass ,Fail and Block
